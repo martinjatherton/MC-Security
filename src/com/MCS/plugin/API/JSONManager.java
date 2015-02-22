@@ -15,33 +15,34 @@ public class JSONManager {
 		
 		File file = new File("plugins/MC-Security/backup.json");
 		
-	    BufferedReader reader = null;
+	    	BufferedReader reader = null;
+	    	
 		try {
 			reader = new BufferedReader( new FileReader (file));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-	    String         line = null;
-	    StringBuilder  stringBuilder = new StringBuilder();
-	    String         ls = System.getProperty("line.separator");
+		 String line = null;
+		 StringBuilder stringBuilder = new StringBuilder();
+		 String         ls = System.getProperty("line.separator");
 
-	    try {
+	    	try {
 			while( ( line = reader.readLine() ) != null ) {
-			    stringBuilder.append( line );
-			    stringBuilder.append( ls );
+				stringBuilder.append( line );
+				stringBuilder.append( ls );
 			}
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
-	    String rsp = stringBuilder.toString();
-	    
-	    Object j = JSONValue.parse(rsp);
-	    JSONObject json = (JSONObject) j;
-	    
-	    // TODO write ban to the list...
+		    String rsp = stringBuilder.toString();
+		    
+		    Object j = JSONValue.parse(rsp);
+		    JSONObject json = (JSONObject) j;
+		    
+		    // TODO write ban to the list...
 	    
 	}
 
