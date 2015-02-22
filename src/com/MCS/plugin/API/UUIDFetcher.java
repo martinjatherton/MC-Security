@@ -1,3 +1,7 @@
+// UUID Fetcher by evilmidget38 - https://bukkit.org/threads/player-name-uuid-fetcher.250926/
+
+// I (Hawkeyezd) do not claim any rights to this code. It is awesome but I did not make it. Please check it out!
+
 package com.MCS.plugin.API;
  
 import com.google.common.collect.ImmutableList;
