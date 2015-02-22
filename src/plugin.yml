@@ -1,0 +1,34 @@
+name: MC-Security
+author: Hawkeyezd
+version: 0.2.4
+description: Ban system.
+main: com.MCS.plugin.Main
+commands:
+  ban:
+    usage: /<command>
+    description: Ban a player.
+  unban:
+    usage: /<command>
+    description: Unban a player.
+  lookup:
+    usage: /<command>
+    description: Check a player's history.
+  lup:
+    usage: /<command>
+    description: Alias of /lookup.
+permissions:
+  mcs.ban:
+    default: op
+    description: Ban a player.
+  mcs.unban:
+    default: op
+    description: Unban a player.
+  mcs.login.view:
+    default: op
+    description: View a player's previous bans on login.
+  mcs.login.update:
+    default: op
+    description: Notify the player when they join if an MC-Security update is available.
+  mcs.lookup:
+    default: op
+    description: Lookup a player's information.
