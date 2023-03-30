@@ -1,5 +1,8 @@
 # MC-Security
 
+Languages used: Java, PHP, HTML, CSS.
+Other tech: SQL, MySQL, PHPMyAdmin, CentOS, DigitalOcean, Git(Hub)
+
 Global banning system for Minecraft. This was a project I made at 15-years-old (largely using YouTube tutorials & expanding on my prior knowledge of making smaller plugins) to support my application to study Computer Science at University.
 
 Java server plugin that interacted with various PHP/JSON pages to enter and retrieve data on users who try and join a Minecraft server and, if they were banned, stop them from accessing. Each server had its own unique API key that was authenticated for each request that would then run the appropriate queries on the MySQL database.
