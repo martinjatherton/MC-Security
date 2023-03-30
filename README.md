@@ -8,7 +8,7 @@ Website also had a front end, built with Twitter Bootstrap, that displayed each 
 
 MySQL relational database that stored tables on registered servers, registered users, registered bans, and users who had logged onto an MC-Security server to log their name vs their Minecraft UUID). PHPMyAdmin used for day-to-day database management where necessary
 
-(From what I remember) The API website was hosted on CentOS Digital Ocean which I hacked together from the command line.
+(From what I remember) The API website was hosted on a CentOS Digital Ocean VPS which I hacked together from the command line.
 
 The project never really saw light of day and never had a server registered that wasn't my own, but it was a great experience in learning some new languages and implementing them together into a functional project. The code, in large places, is absolutely naff - but not a bad effort for a spotty teenager if I say so myself.
 
